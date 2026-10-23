@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelita Sehat - Nutrisi Alami, Sehat Setiap Hari</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <!-- Font Google -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            color: #2d6a4f !important;
+        }
+        .bg-hero {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            padding: 100px 0;
+        }
+        .btn-primary-custom {
+            background-color: #2d6a4f;
+            border-color: #2d6a4f;
+            color: white;
+            font-weight: 600;
+        }
+        .btn-primary-custom:hover {
+            background-color: #1b4332;
+            border-color: #1b4332;
+            color: white;
+        }
+        .text-green {
+            color: #2d6a4f;
+        }
+        .card-menu {
+            border: none;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .card-menu:hover {
+            transform: translateY(-5px);
+        }
+        .calc-box {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        footer {
+            background-color: #1b4332;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">🥗 JELITA SEHAT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-item nav-link" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-item nav-link" href="#tentang">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-item nav-link" href="#menu">Menu Harian</a></li>
+                    <li class="nav-item"><a class="nav-item nav-link" href="#kalkulator">Hitung Kalori</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="beranda" class="bg-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <span class="badge bg-success mb-3 px-3 py-2 fs-6 rounded-pill">Katering Sehat Lingkungan</span>
+                    <h1 class="display-4 fw-bold text-green mb-3">Nutrisi Alami,<br>Sehat Setiap Hari</h1>
+                    <p class="lead mb-4 text-muted">Pilihan cerdas untuk hidup lebih sehat dan bertenaga. Kami menghadirkan makanan bergizi tinggi, segar dari petani lokal, langsung ke depan rumahmu.</p>
+                    <a href="https://wa.me" target="_blank" class="btn btn-primary-custom btn-lg px-4 py-3 rounded-pill shadow">Pesan Sekarang (WhatsApp)</a>
+                </div>
+                <div class="col-md-6 text-center mt-5 mt-md-0">
+                    <!-- Placeholder visual makanan segar -->
+                    <div style="font-size: 180px;">🥗</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG KAMI (VISI & MISI) -->
+    <section id="tentang" class="py-5">
+        <div class="container my-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-green">Visi & Misi Kami</h2>
+                <p class="text-muted">Komitmen Jelita Sehat untuk kualitas hidup yang lebih baik.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded shadow-sm h-100 border-start border-4 border-success">
+                        <h4 class="fw-bold text-green mb-3">🌟 Visi</h4>
+                        <p class="text-muted">Menjadi pelopor gaya hidup sehat yang terpercaya di lingkungan sekitar dengan menyediakan makanan bernutrisi tinggi, lezat, dan mudah diakses oleh semua kalangan.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded shadow-sm h-100 border-start border-4 border-success">
+                        <h4 class="fw-bold text-green mb-3">🚀 Misi</h4>
+                        <ul class="text-muted ps-3">
+                            <li class="mb-2"><strong>Kualitas Bahan Terbaik:</strong> Menggunakan bahan baku lokal yang segar dan alami tanpa pengawet.</li>
+                            <li class="mb-2"><strong>Edukasi Nutrisi:</strong> Menginspirasi masyarakat tentang pentingnya pola makan seimbang.</li>
+                            <li class="mb-2"><strong>Harga Terjangkau:</strong> Menyajikan katering bergizi dengan harga ramah kantong setiap hari.</li>
+                            <li class="mb-2"><strong>Dampak Lingkungan:</strong> Menggunakan kemasan eco-friendly yang ramah lingkungan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU KATALOG -->
+    <section id="menu" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-green">Katalog Menu Andalan</h2>
+                <p class="text-muted">Dipadukan secara ilmiah untuk memenuhi kebutuhan makronutrisi harianmu.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Menu 1 -->
+                <div class="col-md-4">
+                    <div class="card card-menu h-100">
+                        <div class="p-5 text-center bg-light fs-1">🥑</div>
+                        <div class="card-body text-center">
+                            <h5 class="fw-bold text-green">Salad Box Premium</h5>
+                            <p class="card-text text-muted small">Sayuran organik segar, dada ayam panggang lembut, alpukat, dan dressing homemade kaya rasa.</p>
+                            <span class="d-block fw-bold fs-5 text-dark mb-3">Rp 35.000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu 2 -->
+                <div class="col-md-4">
+                    <div class="card card-menu h-100">
+                        <div class="p-5 text-center bg-light fs-1">🍓</div>
+                        <div class="card-body text-center">
+                            <h5 class="fw-bold text-green">Berry Bliss Smoothie Bowl</h5>
+                            <p class="card-text text-muted small">Perpaduan pisang dan beri segar antioksidan, ditambah toping granola renyah serta chia seeds.</p>
+                            <span class="d-block fw-bold fs-5 text-dark mb-3">Rp 30.000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu 3 -->
+                <div class="col-md-4">
+                    <div class="card card-menu h-100">
+                        <div class="p-5 text-center bg-light fs-1">🍣</div>
+                        <div class="card-body text-center">
+                            <h5 class="fw-bold text-green">Salmon Quinoa Rice</h5>
+                            <p class="card-text text-muted small">Salmon panggang kaya Omega-3 disajikan di atas quinoa hangat dan tumis sayuran mikro.</p>
+                            <span class="d-block fw-bold fs-5 text-dark mb-3">Rp 55.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE KALKULATOR KALORI -->
+    <section id="kalkulator" class="py-5">
+        <div class="container my-4">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="calc-box p-4 p-md-5">
+                        <div class="text-center mb-4">
+                            <h3 class="fw-bold text-green">Hitung Kebutuhan Kalori</h3>
+                            <p class="text-muted small">Ketahui energi harianmu dan pilih menu yang tepat bersama Jelita Sehat.</p>
+                        </div>
+                        <form id="calorieForm">
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Jenis Kelamin</label>
+                                <select class="form-select" id="gender" required>
+                                    <option value="pria">Pria</option>
+                                    <option value="wanita">Wanita</option>
+                                </select>
+                            </div>
+                            <div class="row g-3 mb-3">
+                                <div class="col-6">
+                                    <label class="form-label fw-semibold">Usia (tahun)</label>
+                                    <input type="number" class="form-control" id="age" min="15" max="80" placeholder="Contoh: 25" required>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label fw-semibold">Berat Badan (kg)</label>
+                                    <input type="number" class="form-control" id="weight" placeholder="Contoh: 60" required>
+                                </div>
